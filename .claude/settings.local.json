@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(git push:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(claude mcp:*)",
+      "Bash(find:*)",
+      "Bash(npm i:*)",
+      "Bash(nest new:*)",
+      "Bash(rm:*)",
+      "Bash(npm run build:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(docker compose:*)",
+      "Bash(npm run start:dev:*)",
+      "Bash(npm run start:*)",
+      "Bash(npx @nestjs/cli new:*)",
+      "Bash(npx prisma:*)"
+    ],
+    "deny": []
+  },
+  "enableAllProjectMcpServers": false
+}
