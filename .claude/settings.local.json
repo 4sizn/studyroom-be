@@ -19,7 +19,11 @@
       "Bash(npm run start:dev:*)",
       "Bash(npm run start:*)",
       "Bash(npx @nestjs/cli new:*)",
-      "Bash(npx prisma:*)"
+      "Bash(npx prisma:*)",
+      "Bash(open:*)",
+      "Bash(lsof:*)",
+      "Bash(docker stop:*)",
+      "Bash(nvm:*)"
     ],
     "deny": []
   },
